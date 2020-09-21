@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tablas</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <table border="1px solid black">
+            <tr> <!-- Table Row -->
+                <td>Chiclayo</td>
+                <td>Perú</td>
+                <td>1200000</td>
+            </tr>
+            <tr> <!-- Table Row -->
+                <td>Lima</td>
+                <td>Perú</td>
+                <td>8100000</td>
+                <td>Luis Perez</td>
+            </tr>
+        </table>
+        <hr/>
+        <table border="1px solid black">
+            <thead> <!-- Table Head -->
+                <tr>
+                    <th>Ciudad</th>
+                    <th>País</th>
+                    <th>Habitantes</th>
+                </tr>
+            </thead>
+            <tbody> <!-- Table Body -->
+                <tr>
+                    <td>Chiclayo</td>
+                    <td>Perú</td>
+                    <td>1200000</td>
+                </tr>
+                <tr>
+                    <td>Lima</td>
+                    <td>Perú</td>
+                    <td>8100000</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>A</td>
+                    <td>B</td>
+                    <td>C</td>
+                </tr>
+            </tfoot>
+        </table>
+        <hr/>
+        <table border="1px solid black">
+            <tr>
+                <td>fila 1 columna 1</td>
+                <td>fila 1 columna 2</td>
+                <td>fila 1 columna 3</td>
+            </tr>
+            <tr>
+                <td colspan="3">Soy un contenido más largo...</td>
+            </tr>
+            <tr>
+                <td rowspan="2">fila 3 columna 1</td>
+                <td>fila 3 columna 2</td>
+                <td>fila 3 columna 3</td>
+            </tr>
+            <tr>
+                <td>fila 4 columna 2</td>
+                <td>fila 4 columna 3</td>
+            </tr>
+        </table>
+        <hr/>
+        <table>
+            <caption>&Iacute;ndice</caption>
+            <thead>
+                <tr>
+                    <th scope="col">Contenido</th>
+                    <th scope="col">N° P&aacute;gina</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td scope="row">Introducci&oacute;n</td>
+                    <td scope="row">1</td>
+                </tr>
+                <tr>
+                    <td>Resumen</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>Contenido total</td>
+                    <td>3</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
